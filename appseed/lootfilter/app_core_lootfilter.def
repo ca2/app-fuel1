@@ -1,0 +1,8 @@
+; app_lootfilter.def
+
+LIBRARY  "app_core_lootfilter"
+; For Win32 DLLs, only EXPORTs really required.
+
+EXPORTS
+app_core_lootfilter_get_new_library
+
